@@ -1,0 +1,22 @@
+h1{
+    color: rgba(255, 166, 0, 0.849);
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.gridItem1 {
+grid-row: span 2;
+}
+.gridItem7 {
+grid-column: 2 / 3;
+}
+.gridContainer div {
+    background-color: rgb(71, 168, 247);
+    padding: 30px;
+}
